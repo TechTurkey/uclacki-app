@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './event_card.dart' as eventcard;
 
 class EventPage extends StatelessWidget {
   Widget _eventCard() {
@@ -24,8 +25,7 @@ class EventPage extends StatelessWidget {
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          Text('Event Name'),
-                          Text('Event Date and Time')
+                          eventcard.EventCardInfo()
                         ]))
             )
           ]

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import './home_page.dart' as home;
 import './chat_page.dart' as chat;
 import './profile_page.dart' as profile;
-import './event_page.dart' as events;
+import './event_card.dart' as events;
 
 class HomePage extends StatefulWidget {
   @override
@@ -31,7 +31,7 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
           children: <Widget>[
             new home.HomePage(),
             new chat.ChatScreen(),
-            new events.EventPage(),
+            new events.EventCardInfo(),
             new profile.ProfilePage(),
           ]),
       bottomNavigationBar: new Material(
