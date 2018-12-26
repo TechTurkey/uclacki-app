@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import './home_page.dart' as home;
-import './chat_page.dart' as chat;
+//import './chat_page.dart' as chat;
 import './profile_page.dart' as profile;
-import './event_card.dart' as events;
+import './event_lists_test.dart' as events;
 
 class HomePage extends StatefulWidget {
   @override
@@ -15,7 +15,7 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
   @override
   void initState() {
   super.initState();
-  controller = new TabController(length: 5, vsync: this);
+  controller = new TabController(length: 4, vsync: this);
   }
 
   @override
@@ -30,15 +30,15 @@ class HomePageState extends State<HomePage> with SingleTickerProviderStateMixin 
           controller: controller,
           children: <Widget>[
             new home.HomePage(),
-            new chat.ChatScreen(),
-            new events.EventCardInfo(),
+            //new chat.ChatScreen(),
+            new events.ListPage(title: 'Events'),
             new profile.ProfilePage(),
           ]),
       bottomNavigationBar: new Material(
           color: Colors.blue,
           child: new TabBar(controller: controller, tabs: <Tab>[
             new Tab(icon: new Icon(Icons.home, size: 32.0), text: "Home"),
-            new Tab(icon: new Icon(Icons.chat, size: 32.0), text: "Chat"),
+            //new Tab(icon: new Icon(Icons.chat, size: 32.0), text: "Chat"),
             new Tab(
                 icon: new Icon(Icons.calendar_today, size: 32.0),
                 text: "Events"),
