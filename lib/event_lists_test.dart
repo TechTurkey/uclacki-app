@@ -89,17 +89,6 @@ class _ListPageState extends State<ListPage> {
             )
         );
 
-    final makeBody = Container(
-        child: ListView.builder(
-            scrollDirection: Axis.vertical,
-            shrinkWrap: true,
-            itemCount: eventCards.length,
-            itemBuilder: (BuildContext context, int index) {
-              return makeCard(eventCards[index]);
-            }
-        )
-    );
-
     return new FutureBuilder(
         future: fetchEvents(),
         builder: (BuildContext context, snapshot) {
@@ -108,7 +97,16 @@ class _ListPageState extends State<ListPage> {
               appBar: AppBar(
                   title: Text("Events")
               ),
-              body: makeBody,
+              body: Container(
+                  child: ListView.builder(
+                      scrollDirection: Axis.vertical,
+                      shrinkWrap: true,
+                      itemCount: eventCards.length,
+                      itemBuilder: (BuildContext context, int index) {
+                        return makeCard(eventCards[index]);
+                      }
+                  )
+              ),
             );
           }
           else {return CircularProgressIndicator();}
