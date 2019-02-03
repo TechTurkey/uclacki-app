@@ -6,10 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="672ec14d-52db-4557-8c8a-0c3ef326b80d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/event_lists_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/event_lists_test.dart" afterDir="false" />
-    </list>
+    <list default="true" id="672ec14d-52db-4557-8c8a-0c3ef326b80d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -44,8 +41,8 @@
       <file leaf-file-name="event_card.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/event_card.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="680">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -57,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/lib/event_page.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -86,8 +83,8 @@
       <file leaf-file-name="event_lists_test.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/event_lists_test.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="206">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -110,7 +107,7 @@
       <file leaf-file-name="event_description.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/event_description.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="323">
               <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -181,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,6 +200,7 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
@@ -720,13 +717,13 @@
     <entry file="file://$PROJECT_DIR$/lib/event_page.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/event_description.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="323">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -736,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/event_card.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="680">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -746,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/event_lists_test.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="206">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
