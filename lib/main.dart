@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import './main_ui.dart' as front;
-import './event_description.dart';
+//import './main_ui.dart' as front;
+//import './event_description.dart';
+import './login_page.dart' as test;
 
 void main() => runApp(MyApp());
 
@@ -9,10 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
         title: 'UCLA Circle K',
-        home: front.HomePage(),
-      routes: <String, WidgetBuilder> {
-          '/eventdetail': (_) => EventDescription(),
-      },
+        //home: front.HomePage(),
+      home: test.LoginPage()
+      //routes: <String, WidgetBuilder> {
+          //'/eventdetail': (_) => EventDescription(),
+      //},
     );
   }
 }
