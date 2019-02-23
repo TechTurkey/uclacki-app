@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-        title: 'UCLA Circle K',
+        title: 'UCLA CKI',
         //home: front.HomePage(),
       home: test.LoginPage()
       //routes: <String, WidgetBuilder> {

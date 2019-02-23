@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ucla_circle_k.iml" filepath="$PROJECT_DIR$/ucla_circle_k.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UCLA CKI.iml" filepath="$PROJECT_DIR$/UCLA CKI.iml" />
       <module fileurl="file://$PROJECT_DIR$/ucla_circle_k_android.iml" filepath="$PROJECT_DIR$/ucla_circle_k_android.iml" />
     </modules>
   </component>

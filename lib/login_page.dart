@@ -287,12 +287,12 @@ class _LoginPageState extends State<LoginPage>
                     BoxShadow(
                       color: Colors.pink[300],
                       offset: Offset(1.0, 6.0),
-                      blurRadius: 20.0,
+                      blurRadius: 10.0,
                     ),
                     BoxShadow(
                       color: Colors.blue[200],
                       offset: Offset(1.0, 6.0),
-                      blurRadius: 20.0,
+                      blurRadius: 10.0,
                     ),
                   ],
                   gradient: new LinearGradient(
@@ -352,7 +352,7 @@ class _LoginPageState extends State<LoginPage>
                         ],
                         begin: const FractionalOffset(0.0, 0.0),
                         end: const FractionalOffset(1.0, 1.0),
-                        stops: [0.0, 0.5, 1.0],
+                        stops: [0.0, 1.0],
                         tileMode: TileMode.clamp),
                   ),
                   width: 100.0,
@@ -367,7 +367,7 @@ class _LoginPageState extends State<LoginPage>
                         ],
                         begin: const FractionalOffset(0.0, 0.0),
                         end: const FractionalOffset(1.0, 1.0),
-                        stops: [0.0, 0.5, 1.0],
+                        stops: [0.0, 1.0],
                         tileMode: TileMode.clamp),
                   ),
                   width: 100.0,
@@ -536,12 +536,12 @@ class _LoginPageState extends State<LoginPage>
                     BoxShadow(
                       color: Colors.pink[300],
                       offset: Offset(1.0, 6.0),
-                      blurRadius: 20.0,
+                      blurRadius: 10.0,
                     ),
                     BoxShadow(
                       color: Colors.blue[200],
                       offset: Offset(1.0, 6.0),
-                      blurRadius: 20.0,
+                      blurRadius: 10.0,
                     ),
                   ],
                   gradient: new LinearGradient(
