@@ -87,4 +87,8 @@ unlinked_spec.ds
 !**/ios/**/default.mode2v3
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
+<<<<<<< HEAD
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+=======
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+>>>>>>> 104d7e33158b047b9992c635d25aa57e25741c98
